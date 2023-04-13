@@ -1,0 +1,962 @@
+issues
+Bug:
+Blank screen Issue - Due to old build file
+Bug: Text in Docs
+Bug: Suspense should hide Portals deeper in the tree
+Bug: MessageChannel in Scheduler prevents Jest test from exiting
+Bug: 打包后报错
+Bug: autoFocus cannot be used with an anchor (link)
+e.stopPropagation() and dropdown
+Bug: updating state to an existing value is (incorrectly?) triggering a re-render
+Bug: The scroll bar of the sidebar is getting hidden while hovering in the describing UI section (in Learn React).
+Warnings only logged once even for different roots and renders
+Draft
+dropdown not closing on clicking on same icon reactjs
+"Replaying suspended components breaks its-fine's ContextBridge, which can break R3F"
+"Bug: Adjusting state in response to rendering in StrictMode, while also using refs"
+[eslint-plugin-react-hooks] New rule to enforce lazy initialization for useState
+"Bug: Elements in ErrorBoundary are created twice, one of them becomes an orphan"
+Update react devtools readme - The React Tab Doesn't Show Up - CSP
+Is there any roadmap to enable the detection of iframes in React devtools?
+TypeError: Cannot read properties of undefined (reading '_internalRoot')
+Bug:
+Bug: Unexpected Suspense SSR Component Behavior with useSyncExternalStore in React 18.3.0-next: Rerender and Fallback State Issues
+https://www.sec.gov/Archives/edgar/data/1004673/000110465910001432/0001104659-10-001432.txt
+"[DevTools Bug] Cannot add child ""1161"" to parent ""942"" because parent node was not found in the Store."
+eslint react-hooks/rulesOfHooks: add rule to check for non-function return from useEffect
+RSC: How to realize shared code with client-specific execution results
+Bug: react-dom-webpack-server bundles are currently broken on main
+Bug:
+Run
+form fields with different type but no key get reused when re-rendering
+"Is there any way you can provide a code sample that reproduces the problem? That error should only occur if there's a bug in React, so it'd be very helpful if we could reproduce."
+Add in-built styling capability of React Components
+Bug: Cannot set properties of null (setting 'dev') When running npm link ../myapp/node_modules/react
+Bug: Two tests failing without any changes
+One of the best JS library in History
+Bug: createRoot function from React@18 break the css :target
+Bug: { children }: { children: Element[]; }) => boolean' is not assignable to type 'FC<{ children: Element[]; }>
+Bug: Error Boundary is not able to catch only specific Error types
+Bug: Accordion is not collapsing in React beta docs
+"[DevTools Bug] Cannot add node ""621"" because a node with that id is already in the Store."
+Bug: The placeholder is shown on top of the input value.
+Bug: useInsertionEffect() doesn't fire before useLayoutEffect()
+Bug: useRef cleanup in StrictMode refers to second ref twice
+Supporting Date objects in value for type=date input tags
+Bug: onContextMenu listener is invoked on disabled buttons in Chrome
+Bug: Error occurs when returning empty fragment '<></>' on a page
+Bug: Lag when updating coordinates of div on mousemove
+Bug: creating the initial state
+Bug: ErrorBoundary remounts children when errors are caught
+Bug: dispatch called in a wrong order from useEffect clean
+Bug: Duplicate HTML elements being rendered
+> Is there a chance that the page double rendering bug could happen without strict mode? We are seeing double api calls with React 18 but do not seem to have strict mode enabled.
+Bug: set state is not working inside an event listener on mobile browsers (Android Chrome / iOS Safari)
+Make hydration errors more actionable
+Bug: react-hooks/rules-of-hooks doesn't error on hooks in a JSX callback in a class component
+Slow state update with long list of data
+Bug: [Windows OS Only] yarn test returns stderr: file not found for 2 files
+Bug: React dev tools inspect element of hover does not work on shadow elements
+Bug: eslint-plugin-react-hooks not working inside of Promise
+Bug: lazy + hydrateRoot + sibling = mismatch
+Feature request: relax rules-of-hooks inside callback checks for specific functions
+Bug: input type=date clears on Firefox when invalid date is typed
+Bug: Inconsistent react-dom/server exports between 17 and 18
+Bug: onSelect event stops firing if mouse interaction ends over IFRAME
+Bug: onBlur not firing in iOS Safari when keyboard is hidden
+Bug: Why is ref.current null when I get it in the useFetch callback?
+Bug: Empty style attribute on server causes hydration mismatch
+Bug: useReducer rendering behaviour in React 18
+"Feature request: Improved warning ""Functions are not valid as a React child..."""
+React Dev Tools Troubleshoot
+eslint-plug-react-hooks -- Please add Support customHook simliar to useImperativeHandle 3 args
+Bug: useSyncExternalStore will cause hydration missmatch in StrictMode if serverSnapshot is different from snapshot
+BUG: Why do not extract key and ref after merge defaultProps?
+Suspense API forces coupling of page-load sequence with runtime updates
+Bug: FiberRootNode was still exist in memory after root unmout
+Bug: Reconciler should ignore Declarative Shadow DOM (DSD)
+Bug: Memory leak in react while focusing input elements
+Bug: onTransitionStart
+[DevTools Bug]: event.metaKey + f to focus SearchInput doesn't work on Windows
+Bug: Using react with custom event bus - event callbacks keep old state
+React keeps old states in memory which increases app memory footprint
+Bug: FiberRootNode is retained in memory after root is unmounted
+Bug: Handle nonce hydration warnings better
+[DevTools Bug]: Cannot read properties of undefined (reading 'displayName') at getWrappedDisplayName
+RSC version
+Bug: Unable to dynamically add a created Portal as a child
+"[DevTools Bug] Commit tree does not contain fiber ""4543"". This is a bug in React DevTools."
+"Bug: eslint-plugin-react-hooks does not support TypeScript ""satisfies"" operator"
+Feat(renderToPipeableStream): Allow passing crossorigin attribute on bootstrapScripts
+Bug: createPortal doesn't work
+Profile Section is not updated automatically after updating profile picture
+Reactt-dev-tools not loading in incognito mode Browser is Chrome
+Strict effects can break focus restoration
+Bug: eslint react-hooks/exhaustive-deps should not quote nor localize the dependency list in the output
+Bug: Hydration mismatch error for HTML entities in direct text children of <noscript> tag
+Bug: Stale selectors keep old store snapshots alive in useSyncExternalStoreWithSelector
+Bug: onError acts differently to onerror in Vanilla HTML
+"Bug: 'exhaustive-deps' lint rule warns that ""Outer scope values"" aren't valid when a hook is inside a function"
+custom hook does not work in the new version of react dom
+Bug: Chrome devtools conflict while watching WebSocket in a React page
+"Bug: React Re-Renders Component When Set State is The Exact Same, but Only Once"
+Bug: BetaDocs - application tutorial tic-tac-toe zip error
+React devtools stuck at Loading React Element Tree...
+Bug: SSR of malformed? meta renders nothing(working in 18.2)
+"Bug: when used with jsdom-jscore-rn, importing react-dom crashes"
+[Discussion]: More control over the hydration of components.
+Bug: state is not preverved across re-mounts in StrictMode
+"Bug: with Jest and Testing Library, React schedules work with wrong Jest timers functions"
+Bug: Rendering <Suspense> outside <body> should error
+"[DevTools Bug] Cannot remove node ""XX"" because no matching node was found in the Store."
+[DevTools Bug]: Labels are cut off on Firefox on Ubuntu 22.04
+[DevTools Bug]: Unsupported hook in the react-debug-tools package: Missing method in Dispatcher: origHooks
+React Dev Tools not saving settings
+Bug: react 16 and 17 not working in ESM env with TypeScript
+"Special return type for memoized values and functions (TypeScript, Feature Request)"
+Bug: react-hooks/exhaustive-deps does not accept readonly arrays as deps
+[DevTools Bug]: Electron support broken in 4.27
+"[DevTools Bug] Element ""15"" not found"
+Stoped working on chrome 102 please fix it (DevTools version: 4.27.0-bd2ad89a4).
+Bug: non-Hook startTransition waits for stale work to finish
+Need to add access for Firefox extension debug
+Bug: Detached node memory leak when using key and focus contenteditable element
+useEffect alternative which has same effect of listing all dependencies
+Add Async Stack Tagging API support
+Bug: React.renderToPipeableStream bootstrapScripts does not render noModule
+Bug: Unexpected automatic batching behavior?
+[DevTools Bug]: configure by add webpack entry in document doesn't work
+Bug: Input of type radio component can't be controlled with an internal state
+Bug: Failed to pass tests with latest React experimental builds
+"Adding useEffect in HMR causes ""Expected static flag was missing"""
+Bug: New input is not emptied after condition changes
+Bug: Streamed hydration hangs when consecutive Suspense boundaries suspend during streaming
+[Proposal] Add component properties like children
+Bug: Fetch | Response hangs with large responses due to usage of Response.clone() in cachedFetch
+Support All of Structure Clone in RSC Serialization
+Bug:
+Bug: Portals doesn't participate in Suspense
+undefined is not an object (evaluating 'ReactSharedInternals.ReactCurrentDispatcher')
+Bug: False positive warning with nested roots: Attempted to synchronously unmount a root while React was already rendering.
+"Bug: Allow suppressing warning message ""Warning: key is not a prop. Trying to access it will result in undefined being returned. If you need to access the same value within the child component, you should pass it as a different prop."""
+"throwing Promise.resolve cause unmount, remount. but Promise.reject doesn't?"
+"Bug: ReactDOM incorrect check window.event (check undefined, but maybe null)"
+"Bug: memory leak on props when parent doesn't change, but child using props changes (in the same jsx)"
+Bug: Rules of hooks does not check children function of component rendered within a Class Component
+Bug:
+Bug: <Strict /> cause some unsupport usage flow work on the devlopment mode
+Duplicate setting sibling
+Bug: Chrome Incognito Mode is not sending custom request header along with the request.
+Bug: Compatibility between ReactServerDOMReader and ReactDOMServer
+Bug: Firefox Android not triggering onSelect in <input> when dragging cursor
+Await startTransition
+Suggestion: Set list for className
+[JSDoc] Misleading JSDoc for jsxDev fn in ReactElement.js file
+"Bug: Error message ""Uncaught Error: A component suspended while responding to synchronous input."" may be misleading"
+"Bug: Code based on React portal example from official React documentation code works on Firefox, but not on Chrome."
+Bug:
+Suggestion: why not make accessing and changing the state more flexible?
+Suggestion: It is recommended to provide an api for querying root container globally
+[DevTools Bug]: Not seeing source / file path
+Bug: Infinite loop in Suspense
+Bug: Concurrent mode does not improve page jank
+Bug: Why does react fail to implement bidirectional data binding
+Bug: react-dom/server renderToString don't support array style(react-native ssr)
+Suggestion for JSX syntax simplification
+Compile JSX directly to VDom for improve draw of view performance and allow progressive view rendering
+Bug:
+Bug: React 18 Downloading a file on-demand doesn't work
+Bug: SVG executes contents of script tags.
+"Bug: devtools ""select an element in the page to inspect it"" does not work for ShadowRoot"
+[DevTools Access] Chrome extension request pending for React Developer Tools
+Bug: Setting same state in useLayoutEffect triggers additional renders in React 18
+Bug: RulesOfHooks can't detect member expression containing a hook name if the object is not in PascalCase
+Bug: In StrictMode callback refs are called once
+"[DevTools Bug]: Warnings are too ""loud"", mislabeled and make console difficult to use"
+Warning: ReactDOM.render is no longer supported in React 18 when using ReactTestUtils.renderIntoDocument
+[Feature Request] exhaustive-deps linting rule: allow custom hooks to specify the index of their callback effect
+[DevTools Bug]: Hook parsing failed for default Next.js configuration
+"[DevTools Bug]: ""Message length exceeded maximum allowed length"" when profiling a complex application"
+Remove alternate tree DOM element retainers to help with memory leak investigations
+Bug: state changes of input[type='number'] value doesn't update real DOM
+eslint-plugin-react-hooks: lint rule to enforce that useMemo returns a value
+[DevTools Bug]: DevTools causes hook callback behavior inconstency
+Making React a Functional program by mapping behaviour to expected inputs and outputs.
+Bug: onRender API in React.Profiler is tedious to work with
+React Developer Tools shows only on Chrome's incognito window
+Bug: Unable to detect which boundary received an update.
+Bug: how to preventDefault in touchmove
+Bug:
+Bug: React DOM Server triggers setStates only on the top component
+Bug: event not bubbling to root on iOS Safari
+react-server-dom-webpack node loader does not support newest ESM loader API
+Bug: defaultValue property missing on select element ref
+Bug: onChange handler is lost between re-renders
+Bug: React-Core should support VirtualizedList instead of third-party packages.
+Bug:
+Bug: inconsistent auto batching
+"Add ""Support Armenia"" banner on reactjs.org"
+[DevTools Bug]: Labels are cut off on Firefox on Linux (Fedora 36)
+Feature request: Add a key property to custom hooks to reset state
+Bug: <img/> renders twice in firefox with react 18
+Feature Request: Event Modifiers support
+Bug: exhaustive-deps false positives?
+Bug: Latest Chrome extension is not working with React Developer Tools
+Bug: onBlur is not called when a focused element is unmounted
+Bug: ErrorBoundary won't caught error in useEffect callback while ErrorBoundary unmount with it's children
+Bug: is the current useSyncExternalStore batching & flushing behaviour intended?
+[DevTools Bug]: useSyncExternalStore adds 1 to subsequent hook's number in Profiler
+Bug:
+Bug: can't get the correct fiberNode.child in classComponent
+Bug: Event.composedPath() and Event.composed missing
+How React18 Stream SSR work in nested Component Fetch Data?
+Bug: react-hooks/exhaustive-deps false positive when use function with generic type variable in useEffect
+Support Open Selected Component In IDE
+Resilient component
+Bug: Tap highlight effect on iPhone is throttled when button is rapidly tapped from React 17+
+Bug: onBlur event does not fire if loss of focus occurred due to element being removed by react
+Bug: Virtuallists/grids are flickering on scroll with react 18
+useTransition should optionally also consider nested suspense boundaries
+"Bug: preventDefault() breaks checkboxes, they may not reflect the checked prop"
+Bug: Eslint hooks returned by factory functions not linted
+Bug: react-devtools crash at start
+"Bug: ""Destroy is not a function"" doesn't get caught by Error Boundary"
+Bug: TBT of website increased after migrating to react 18
+"Bug: in jest use Timer Mocks , act executed state batch updates incorrectly"
+Bug: wired behavior of contenteditable elements
+Bug: Why does React need to replay beginwork when an exception occurs
+[DevTools]: More compact rendering of deeply nested component trees when there is a single child
+Bug: useSyncExternalStore subscribes too late in Suspense
+Bug: hydration mismatch in top component does not cause client-render fallback
+ReactDevTools extension doesn't work in private Firefox windows [DevTools Bug]:
+[react-test-renderer] StrictMode seems not to work in tests
+Why imperative code using refs should be avoided?
+Bug: Error: Should have a queue. This is likely a bug in React. Please file an issue.
+Uncontrolled re-rendering with useEffect within custom hook when unmounting component and when prop to hook is an unanchored array
+[DevTools Bug] Children cannot be added or removed during a reorder operation.
+"Bug: memory leak, Initialized props are not released even though props are updated"
+"Bug: local variable approach in useEffect failed to achieve ""ignoring"" check with strict mode in development"
+Bug: Bad running order with server-side-render inline script tag inside Suspense component
+Bug: Cannot use 'in' operator to search for 'data' in null
+[Portals] DOM order accessibility
+[UX Improvement] Disable mouse wheel behavior on number type inputs
+Bug: Can't require react production build when NODE_ENV is not 'production'
+Make react-dom and react-art depend on react-reconciler from npm
+ssr render Can you make an on-demand plug-in？
+Bug: useReducer Object.is is not working
+Bug: React typescript [AnchorHTMLAttributes]
+generateHydrationScript for React?
+Bug: useMemo hook executes twice
+"Bug: d1 will cause domdiff, but d2 will not."
+"Bug: When testing, code that causes React state updates should be wrapped into act(...):"
+Bug: Cannot read property 'useState' of null
+Bug: touch and pointer events are not dispatched on the edges of the component
+Several tests fail on main with Node v16
+fix: remove useless line.
+"Bug: Unsupported Bridge operation ""0"" using both react-devtools and Flipper"
+Bug: Got error while running npm run build
+Bug: SSR is loaded on demand
+Possible optimization to useSyncExternalStore's withSelector
+Bug: React 18 renderToPipeableStream missing support for nonce for bootstrapScripts and bootstrapModules
+Bug: React.lazy + Suspense issue
+"Bug: duplicate keys create orphan DOM nodes, breaking v=f(d) even after the elements with duplicate keys should have been unmounted"
+Bug: isHostTimeoutScheduled in scheduler is never been reset true while scheduling.
+standalone GraphiQL support
+Bug: Failed to execute 'insertBefore' on 'Node'.
+Bug: can't use react-dom/server from graaljs script engine.
+Hydration mismatch error: suggestion to include mismatch details in production error message
+Bug: The first context passed into Flight is ignored after the first render
+Possible problem with the code
+Bug: SetStateAction gets called multiple times after suspending single component in array and unsuspending other
+ChildComponnet Re render not working with Key prop in react 18
+Bug: useSyncExternalStore update not batched within unstable_batchedUpdates
+"Bug: React converts boolean data-attributes to ""true"" but leaves boolean attributes as """""
+Bug: Async code and promises: redundant await and missing await in multiple places
+[Devtools Feature]:[Open in Editor URL]Expect to add a switch to allow users to use GET requests
+Bug: Getting Loader instead of UI in SSR with Lazy Suspense
+Bug: eslint-plugin-react-hooks false positive conditional call after foreach
+bug : renderToPipeableStream and Readable stream not working together
+Bug: react-test-renderer's createNodeMock doesn't get called in React Native
+[eslint-plugin-react-hooks] New Rule Proposal: no-unnecessary-effect
+May be a bug
+"Why not use an array to save fibers with side effects, but use a linked list on the finishedWork tree"
+Waiting for React to connect error with basic new app setup
+Not able to edit array in react devtools while inspection
+[Devtools Feature]:let devtool component picker to spport custom renderer which runs on web
+Bug: Suspense does not [always] reset state of suspended components
+Bug: hidden attribute does not accept string values
+[DevTools Bug]: Open in editor does not work on Firefox
+New hook; useForwardRef
+Make React more friendly with other DOM-Manipulation libraries
+Bug: Fast Refresh crashed when wrapping function in memo.
+Bug: Chrome Memory Leak When Mounting Many Divs
+createPortal in document.body
+Bug: SetState Async Unpredictability
+"[DevTools Bug]: With yarn@3.2.1 and PnP and react-devtools@4.24.7, yarn react-devtools fails to start"
+Bug: Support Iterable | AsyncIterable in ReactDOMServerReadableStream
+Bug: React 18 Strict mode does not simulate unsetting and re-setting refs
+Bug: useId() not working inside <Suspense>
+Feature Request: Automatically optimize callbacks in compiler level
+"[DevTools Bug] Commit tree already contains fiber ""15"". This is a bug in React DevTools."
+Bug: Bad state updates with Promise.resolve and useReducer
+Bug: state updates are applied out of order inside useEffect when using Promise.resolve
+Bug: Error: Should have a queue. This is likely a bug in React. Please file an issue.
+Bug: react-reconciler with supportsPersistence = true doesn't cloneInstances when props change
+Bug: Potential infinite loop with Suspense (and Error boundaries not triggered)
+"Bug: Updates within microtasks within useEffect are not batched at first but batched when updates, and always not batched within useLayoutEffect"
+Bug: Sometimes images get second time loaded with error. useEffect()
+Does React team agree on recent ReactNode type change by @types/react?
+"[DevTools Bug] Cannot remove node ""276"" because no matching node was found in the Store."
+Bug: viewBox attribute is discarded when importing an SVG file
+Bug: useInsertionEffect fires after DOM mutation on second render
+[DevTools Bug]: Overlapping flamecharts in Profiler
+Bug: componentDidCatch hook does not exist
+Bug: renderToPipeableStream and renderToStaticNodeStream render inconsistency
+Bug: Support ESM for the use-sync-external-store shim
+Bug: Browser-based handling of recoverable errors is to strict - use console instead of the reportError API
+"Bug: When hydrate <Suspense>, it shows loading forever."
+[Recomendation/Discussion]: Hook-based Context API
+Bug: useEffect called twice in Strict Mode
+Bug: Typescript classful React Component inducing Minified React error #130 crash when using setState
+Bug: exhaustive-deps does not warn about stale ref in a cleanup function returned by arrow function
+react-devtools standalone app is missing inspector (selector tool)
+"Bug: Use Suspense to load data,refresh for hundreds times"
+Bug: [Streaming] No reliable way to tell whether error is React internal error or boundary error
+Bug: Using an hook in getSnapshot of use-sync-external-store causes an infinite loop and no useful error is shown.
+Bug: validateDOMNesting error produces wrong HTML nodes in SSR
+Bug: Select Element Not Always Resetting To The First Available Option After State Change
+"Bug: Chrome. Controlled and *required* input type=""date"" - onChange not triggered by pressing clear"
+Ad hoc data fetching with Suspense
+Bug: react-refresh@13 package.json's exports field change leads to an adapting mistake
+Bug: Updaters are NOT called twice for the first time when in Strict Mode
+Bug: <select size value> with value not matching any option results in first option being selected
+"Bug: Differences between ""cjs/react.production.min.js"" file and ""umd/react.production.min.js"": ""Scheduler"" property is missing in object ""React. __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED"" in ""cjs/react.production.min.js"""
+"Bug: Page becomes empty when an input is displayed in a ""popup"" in Chrome on Android"
+Bug: Inconsistent error when violating rules of hooks with useContext
+Bug: Hydration mismatch error due to plugins generating script tag on top
+Bug: ERR_PACKAGE_PATH_NOT_EXPORTED
+Bug: Internal React error: Expected static flag was missing
+Bug: Updates within microtasks are sometimes not batch
+Bug: beforeInput event doesn't fire when input is replacing previous text
+Suggestion: Process higher priority renders after each useEffect callback
+Bug: State updates in ResizeObserver callbacks are applied after paint and cause visual glitches
+Support for selectionchange event for HTML input element and HTML textarea element
+"Suppress ""Download the React DevTools"" log for a better development experience"
+suggestion: Suspense support delay
+Server-side rendering performance degradation with renderToPipeableStream
+Improve DevTools protocol version handling
+Bug: Elements in a list incorrectly receive hover state when a sibling is removed as result of a touch event
+Standalone react-devtools: select component instances in iframe
+Bug: defaultValue is not consistent between input and select
+[React DevTools] Warn for Duplicate DevTools Installations
+Allowing custom reconciler host-context in React 18
+Bug: Events in shadow dom get duplicated when bubbling
+[Enhancement] Imply empty array of dependencies
+Bug: <StrictMode> unexpected behavior for double invoked functions
+Bug: eslint-plugin-react-hooks does not allow passing hook as props in jsx syntax
+"Bug: Yarn build fail, rollup issues"
+React 18 Whether to support keepalive？
+Bug: v17.0.2 tag doesn't seem to correspond to v17.0.2 source code
+Why return now directly in the RenderContext or CommitContext
+[DevTools Bug]: Out of Memory randomly on pages
+Bug: 美国人制裁元素周期表，制裁太阳吧，制裁火星吧，制裁月亮吧，地球已经不够你制裁了。
+Bug: element.current.scrollIntoView() not working as expected in chrome.
+Bug: React 16.8 and above [keyboard events not working with MAC touch bar in React Js after first submit (on textarea form)] #23344
+Bug: TypeError elem.nodeName.toLowerCase is not a function
+Bug: pseudo styles don't work properly if React state does not change when clicking with right mouse button.
+Bug: autoFocus broken inside <dialog />
+Reset button on iOS time input does not return correct event value
+"react-hooks/exhaustive-deps and useMemo(() => x, x)"
+RFC: Context scoping for compound components
+Bug: React Context consumers not consuming through windowed portal
+"Bug: eslint(react-hooks/exhaustive-deps) When a property is accessed with and without optional chaining, exhaustive-deps' code suggestion will introduce an error"
+Bug: eslint-plugin-react-hooks makes a suggestion that will lead to bugs
+Mechanism to customize rendering of state/props data types
+React 18 Is there a way to use mongodb when using rsc
+React 18 - Using SSR with bundle splitting is possible with renderToString
+autoFocus polyfill deviates from HTML autofocus global attribute spec
+[DevTools Bug]: Inconsistent enforcement of using hooks in callbacks
+"[DevTools Bug] Cannot add node ""1"" because a node with that id is already in the Store."
+"[DevTools Bug]: Debugging on separate device is not working, because devtools provide websocket address of localhost"
+Bug: Detached DOM nodes exist when component is unmounted
+"[DevTools Bug] Cannot remove node ""612"" because no matching node was found in the Store."
+Profiler should support importing profiles without React being connected
+"The ultimate solution for server side render, a simple function..."
+"Bug: ""Rendered more hooks than during the previous render"" does not get thrown when transitioning from 0 to positive number of hooks"
+DevTools: React Native / React VR improvements
+Bug: Error: Should have a queue. This is likely a bug in React. Please file an issue.
+Bug: onBlur called in wrong order if another element receives focus
+Bug: input type month and VoiceOver
+[DevTools Bug]: Incorrect source location after hot reload & editing props
+Bug: controlled input range does not receive all onChange events
+Bug: Chrome Autofill Hover removes Parent Hover
+[DevTools Bug]: Devtools script served over insecure connection causing issues with local https server.
+React-refresh in the browser
+Bug: onCut is not triggered in contenteditable for collapsed selection in Firefox
+React 18: useEffect different behaviour compare to v17 in specific cases
+Bug: Cannot reproduce builds on npm
+"React 18 - Avoiding hydration errors, but initialize client-only state directly if possible"
+I install react-devtools and use npx react-devtools to start it but failed. show as below
+[DevTools Bug]: React Dev Tools fails to render props and state of component.
+"Bug: textarea: set maxLength & controled value, when input Chinese an blur, do not trigger event change"
+React 18 Suspense unable to track when a promise completes causing SWR failure
+Bug: customElement can't setAttrubute width Object
+React Fiber for the profiler dev tool
+style whichi has '-webkit-line-clamp' attribute is filtered in react?
+"In Strict Mode, function component and class component are inconsistent with scenes that produce side effects"
+Bug: There are redundant DOM manipulation when swapping elements in the list
+React 18 : Add commitEffects begin and complete hook exposing to customized renderer to improve render performance
+DevTools: Consider replacing postMessage with BroadcastChannel
+Bug: Rendering content inside an iFrame using createPortal with Firefox is blank
+Object.prototype builtins should not be used directly
+Update Server Components dependencies
+[DevTools Bug]: They make Firefox's debugger unusable (can't continue or step over)
+React 18 not passive wheel / touch event listeners support
+React 18 doesn't wait for long running suspended promises
+Timeline view search
+Consolidate component stack and (DEV only) element __source
+React 18 requests similar component trees for the useId
+Timeline: Nested update warning logic flaw
+[DevTools Bug]: Chrome extension's settings reset after every reload
+How to resuse same component without remounting it and access anywhere in dom tree?
+Bug: Parent <details> onToggle handler called when child <details> onToggle handler is triggered
+Safari performance while adding list items
+"Bug: when initialArg changes, useReducer should update the state accordingly"
+[DevTools Bug]: Components without own dimensions not highlighted at all
+Bug: Failed to execute 'insertBefore' on 'Node' And Failed to execute 'removeChild' on 'Node' with Chrome translate
+Use html native event handler <img> with React SSR.
+[React 18] Selective Hydration fails hydration when using context api
+Bug: <picture> fetches both <source> and <img> image in Safari on macOS and iOS
+Navigating to a new tab with DevTools open does not load Components tree
+"Bug: ""The above error…"" should appear after the error message but appears before (for some errors)"
+React 18 - Internal React error if throwing on hook cleanup function.
+[react-is] The major versions of react and react-is must be peerDependencies related.
+DevTools can't load Components tree in Components Tab
+Await detection in act() is not compatible with react-native
+Bug: Cannot update a component (xxx) while rendering a different component (yyy) on user click
+React 18 - waterfall suspensions re-trigger the Suspense boundary
+Feature request: react-hooks/exhaustive-deps option to require deps arg.
+"devtools: ""What caused this update?"" when a lazy component resolves"
+Handle duplicate extensions in Firefox and Edge
+Custom React-specific metadata format
+"Improve ""native"" component stacks host component frames"
+Combine Profiler data sources
+[ possible ] Bug: Failing catching rapid clicking events on iOS 15?
+Bug: rules-of-hooks violation not caught by eslint plugin
+Fast Refresh: Crash when hot reload with some specifics content security policies
+mouseEnterEvent can not trigger in outer dom
+Bug: Submit events from a button inside a portal don't bubble up to a form in its React DOM Ancestry.
+(continued) Warning when input elements don't reference onChange - does React like event bubbling?
+"Bug: How can I use react.lazy in ""config.output.libraryTarget = 'umd'"""
+"Bug: ReactDOM.createPortal does not reflect the new state of the container element, and no way of being notified (like via callback) of changes"
+"Bug: I was contributing to selenium ide and I got problem with input. If I complete input from autocomplete suggestions. State update did'nt reflect. Morever it throws exception "" expected keyboard error but got mouse event'"
+Bug: Wrong warning: unmountComponentAtNode(): The node you're attempting to unmount was rendered by another copy of React.
+Bug: broken app when namespaced tags in JSX
+RFC: Parsing hook names should display better error messages
+Bug: Incorrect escaping inside style tags
+[DevTools Bug]: Hook names fail to parse if source file for Component is an html file
+Enable new console override behavior for React Native
+"Bug: Native Component Stacks don't respect function ""displayName"" in Firefox"
+[React 18] Optimized React Server Components's webpack bundling
+Bug: missing else statement in ReactDOMServerFormatConfig.js
+[react-hooks/exhaustive-deps] option request: ignoreFunctions or ignoreMethods
+Bug: react-dom Portal does not load on re-render with functional component
+Bug: The onChange synthesis event is not propagation when the child node is added through dangerouslySetInnerHTML
+"Feature Idea: React.useConditional(key, () => { ... }) for conditional and dynamic hooks"
+DevTools: Profiling tool improvements umbrella
+Feature Request - useEffect - Provide boolean values on whether dependency has changed.
+Bug: Rules of Hooks should not allow passing a Hook as a function argument
+Is there any action/license should be taken/granted for conducting a React conference
+Bug: Nested ReactDOMServer.renderToString calls cause React hooks to throw invalid hook exception
+Bug: input onChange not triggered when input value is changed through ref current stepDown/Up functions
+"A11y related Bug: onKeyPress doesn't trigger on element (tabindex=""0"") when narrator is on"
+"[Feature Request][eslint-plugin-react-hooks] no-ref-checks, display error when using useRef's return value as condition"
+Bug: Allow multiple instance of React (or inject one into the other)
+[Blocks Fixture] Migrate to built-in <Cache> API and regression test
+Expecting hasShadowRoot from global scope
+[DevTools Bug]: React Profiler: Flamegraph section overflows and not resizable
+Feature request: adding a triggers optional array to useEffect
+[DevTools Bug]: Cannot hover/click elements after scrolling
+Benchmark alternative source-map parsing library
+DevTools: Scheduling Profiler: Better error message when no marks
+Question: Keys & Image Flickering
+Scheduling Profiler: Add React Native support
+Improve production error stack trace for Invariant #31
+[DevTools] Support collapsing the entire component tree
+"Bug: ""NotFoundError"" when removeChildFromContainer -> container.removeChild(child) is called"
+"Bug: ""Cannot read property 'length' of undefined"" in areHookInputsEqual"
+[DevTools Bug]: React Devtools on Firefox initially shows an empty (blank) component tree
+Question: Why propagateContextChanges not restore the workInProgress.child.return pointer?
+Issue (old topic but still not okay): eslint exhaustive deps --> context+axios+db+useEffect
+"Bug: ""Unsafe assignment to innerHTML"" warning from Mozilla addons linter"
+Bug: onMouseEnter behavior when mouse does not enter via boundary is inconsistent between browsers
+Bug: Bundle 16.14.0 does not include expected bugfix
+React CM Mode (18) stacking app during hydrateRoot
+[DevTools] Support hook names for inline and standalone targets
+Question: React supports performance answers。
+Bug: onclick will not work when i import bundle.js twice
+Bug: additional outline is added to SVG nodes when used as root node in React 17
+Bug: Conditional rendering issue when using multiple SVGs as ReactComponents
+Bug: Lazy only attempts to retrieve module on first mount
+React 18 let's make ref.currant to be reactive value
+[DevTools] Global console log
+Bug: Useeffect Dependency List Dosent Recorgnise optional chaining
+"Bug: useState set the same value, trigger the render"
+[DevTools] Scheduling Profiler umbrella task
+[DevTools] Show which hooks (names) changed in the Profiler
+Bug: video and audio elements invoking wasteful dispatches when there are no related handlers declared
+[Devtools] Indicate or print which element causes suspense fallback
+[Devtools] Make link style value clickable
+Bug: onContextMenu not fired in iOS 13 and later
+Bug: Safari does not load lazy-imported components when re-entering site
+React's JSX doesn't support namespace tags How do I set throwIfNamespace: false
+React 17/18 custom Synthetic Events
+[React 18] Possible Suspense Bug - Thrown error causes corrupted page
+Bug: radio and checkbox controlled checked property is not updated when browser restores form state
+[DevTools] Named hooks umbrella
+[DevTools] Combine view highlighting code
+Bug: Picture elements fail to update to appropriate source image on window resize in Safari
+PointerLeave event listener not fired across renders
+[DevTools Bug] Children cannot be added or removed during a reorder operation.
+"Using window.open w/Apollo Client, followed by a state update seems to crash / freeze app"
+Inconsistent crossbrowser onBeforeInput paste event behavior
+"Bug: Rendering an array of arrays doesn't warn developer about missing key="""""
+"Bug: Old bug Invariant Violation, happens ONLY in production"
+Bug: Memory leak with setState lambda setting to previous state
+Where is the React Dev Tools extension official guide found?
+React 18 data fetching network call cancellation
+Don't warn about whitespace inside <table>
+Bug: memory leak in useReducer
+Bug: Webpack process and setImmediate polyfill interferes with time slicing
+Question: Transition starvation in React 18?
+Concurrency / time-slicing by default
+Backport releases on GitHub have incorrect tarballs
+Bug: unable to render to document when using createRoot
+[eslint-plugin-react-hooks] New Rule Proposal: no-unnecessary-setstate
+Bug: React takes considerably longer to update an empty list than rendering it initially
+Bug: Firefox and react-dom causing null access property
+Optimize data transfer between components by exposing state
+Bug: Events bug
+Bug: e+-. as first character of numeric input results in uncontrolled state.
+"Bug: NVDA reads element as ""clickable"" because onClick is not removed (but replaced with noop())"
+Feature Request: Support getDerivedStateFromError in renderToStaticMarkup
+DevTools: Standalone should support multiple connected clients
+Bug: ReactDOM ignores invalid styles (e.g. unquoted font-family)
+Bug: Memory leak in simple dialog interaction
+How can we deal with suspense in mixed mode (multiple renderers)
+Feature Request: ESLint hooks rule for accessing previous state when deriving new state
+Bug(?): ESLint react-hooks/rules-of-hooks not working in arrow functions with styled components
+Profiler API should support Server Components
+Bug: Impossible to use on async hooks
+Add nested update flag to Profiler UI as explicit marker
+"Bug: In a specific environment, controlled input triggers onChange twice"
+Feature request: useContextGetter
+Bug: ESLint react-hooks/rules-of-hooks false positives when codepath counts exceed Number.MAX_SAFE_INTEGER
+Bug: I can always access the initial state in native event callback
+DevTools React recommendations UI / architecture
+Bug: ESLint react-hooks/exhaustive-deps rule false positive on constants made with constant expressions
+eslint-plugin-react-hooks should flag uses of createRef in function components
+React-refresh not apply updates to the umd bundled library
+Bug: iOS VoiceOver announces stale content in headings
+Bug: [Refresh] Default exported unnamed functions are ignored
+Bug: [Refresh] Components resulting of HOCs composition immediately applied to render functions are ignored
+Bug: getting console error for live grid randomly
+Bug: react-test-renderer: Cannot read property 'removeEventListener' of null on snapshot
+[Fast Refresh] Don’t Scan the Tree
+Another Fiber structure without return pointer.
+Remove DevTools dependency on host node internalInstanceKey
+Bug: Radio/Checkbox inputs not triggered when setting state in listener on a parent element
+Bug: The invalid value warning was showed when adding functions to object prototype
+Bug: Incorrect error message
+Bug: useState with class as initial state throws an error
+"Bug: onMouseEnter triggered twice on target when there's space around it, and ReactDOM.createPortal is used to render something else"
+Feature request: Consider supporting AbortSignal/AbortController for cleanup
+Bug: Creating a portal within a shadow root breaks event handlers
+Bug: HTMLSelectElement.value doesn't update to defaultValue on form reset
+react-devtools-inline package now has react@experimental dependency
+Bug: Unsupported HTML entities
+"Bug: Error message prints ""Warning: ..."" instead of ""Error: ..."""
+Provide a way to propagate tracing context to async tasks
+Bug: React test triggers mouseout event for disabled button
+Bug: React Dev tools keys not showing last letter in FF
+umd distribution for jsx-runtime
+Bug: onChange of input field firing twice on Android devices based on special conditions
+Bug: ESLint react-hooks/exhaustive-deps false positive on useCallback wrapped in function defined outside component scope
+Bug: Event handling with portals is broken
+Bug: React roots are announced as clickable to screen readers
+Possible Bug: interplay between reconcilliation algorithm and DOM manipulations via refs
+Bug: React DevTools fails when using React Native + Hermes
+React throws many fake errors when warnings are issued
+Component summary view by type
+Bug: Dropdowns in React Dev Tools are unclickable in Firefox
+Impact: Removal of function.displayName in Chromium
+"When you pass object instance into React Component props, object instance is never cleared from memory."
+Bug: Safari div contentEditable，onMouseUp trigger before onMouseDown
+Scheduling profiler feedback
+Bug: Disabled button state update prevents scrollIntoView
+Bug: react-hooks/exhaustive-deps false positive when function is casted with TypeScript
+Bug: Nested form elements not firing onSubmit
+"Feature Request: render React *to* a node, not *in* a node."
+Bug: react-test-renderer working with a mix of react renderers
+Feature request: custom error handlers in ReactPartialRenderer
+Bug: Iterator as JSX children doesn't work right
+Powerful Feature - SSR async fetching for resources via lifecycle method
+Bug: react-hooks/rules-of-hooks should support compound component pattern
+DevTools: Re-think errors/warnings that do not have a 1:1 component mapping
+Bug: <img> within a <picture> is being requested twice in Firefox
+propagateContextChange visits all child fibers
+Bug: no way to reset a react.lazy cache
+Bug: react-dom@17.x event delegation issue
+Bug: ComponentDidCatch will not catch the same child component twice
+[react-devtools-inline] Same-origin domain element inspection problem
+"Bug: devtools may crash when custom hook has the name ""useState"""
+Bug: [eslint-plugin-react-hooks]: exhaustive-deps not triggered if namespace is not 'React'
+React needs some way to fuzz setState timing/usage
+Bug: CSS variables can't be a space character
+Replace DevTools mutable Suspense cache with newer Cache API
+Bug: BigInt does not get toString()'d when rendered
+New JSX runtime advice for package authors?
+"Bug: React onMouseEnter, onMouseOver and onMouseLeave not firing as expected (Chrome)"
+Bug: onChange event is fired twice when replacing selected text
+Using dangerouslySetInnerHTML with <Script> Tag?
+CRA: Fast Refresh breaks embedded DevTools backend
+Bug: Memory Leak when rendering arrays
+TypeError: Cannot read property 'setExtraStackFrame' of undefined
+The interface(Children.map) has no iteration object returned by the recursive call function
+Bug: React's batching makes state comparison checks unreliable
+Bug: onLoadStart is not passed to img
+Bug: [react-reconciler] Impossible to import react-reconciler correctly in typescript library without setting esModuleInterop:true in tsconfig.
+Bug: react-hooks/exhaustive-deps false postive when given undefined as deps
+Issue regarding ESLint react-hooks - 'exhaustive-deps' rule
+Bug: [eslint-plugin-react-hooks] Constructions should be caught in default props/args
+Bug: v16.14.0 tag is incorrectly shows v17-alpha
+"DevTools: Flag ""nested updates"" in the Profiler UI"
+Feature suggestion: Allow custom list of hooks to ignore on exhaustive-deps
+"Bug: eslint-plugin-react-hooks doesn't report conditional typescript ""?."" hooks"
+Distribute source maps for easier debugging in Chrome's Performance tab
+Bug: react-hooks/exhaustive-deps false positive when deps is defined with typescript const typing
+Bug: Input minLength not working after type changed
+Bug: react-hooks/exhaustive-deps false positive on additionalHooks' definition
+Bug: can not pass some special custom attribute such as size
+React Developer Tools triggers console error in Firefox for protected URLs
+"Bug: Usage of ""React.forwardRef"" in ""React.memo"" distorts profiling report"
+react-devtools-inline: How to remount/reuse DevTools frontend after unmount
+Bug: Should have a queue
+Bug: React DevTools failing silently on Debian
+Bug: react-devtools prints too many logs of WS failed
+Bug: Input leaks fiber nodes in recent versions of chromium
+Feature Request: Adding filter (search) to react DevTools Profiler
+Feature request: A useLayoutEffect with read/write batching across a tree
+Bug: onCompositionEnd not called
+Suggestion: transforming jsx to jsx-runtime without createElement fallback
+Bug: Infinite rendering resulting in freezing of tab/browser
+Bug: Fast memory leaks on simple React App
+eslint-plugin-react-hooks: New rule to require useState updater.
+Better support <template> tags
+Bug: shallowEqual() is flawed
+Bug: hydrating fails with nested paragraph and dangerouslySetInnerHTML
+FR: Allow displaying debug information for reconcilers in DevTools
+Feature request: dealing with dependencies in custom React hooks
+Bug: Nested Suspense not catching fast resolved Promises
+Removal of <script> functionality needs to be added to https://reactjs.org/docs/ and a warning displayed while in development mode.
+"Bug: input[type=""radio""] controlled value can get out-of-sync"
+Bug: React Portals - Memory Leak
+"Bug: Component with a Symbol as key, causes Crash"
+Bug: Handling of symbols when used as deps incorrectly to create error message results in an unrelated TypeError: Cannot convert a Symbol value to a string
+Bug: manually created 'change' events via new Event() don't trigger React event handlers
+Bug: Glitchy behaviour when rendering/setState in an onKeyDown event callback
+Bug: Memory leakage with setInterval
+"Bug: React devtools ""highlight updates when components render"" and profiler output not matching when using memo"
+App crashes upon the automatic attempt to inspect hooks on a Fiber with tag of type ClassComponent
+Bug: React DevTools throws ReferenceError: regeneratorRuntime is not defined
+Bug: react-hooks/exhaustive-deps includes too much logic?
+Bug: React DevTools 'Why did this component render?' incorrectly reports 'The parent component rendered'
+Craft a demo profile for the scheduling profiler
+Consider improving React.cloneElement validation in DEV
+Bug ?: Weird reconciliation result on list elements from array with same length as the list.
+Bug: different handling of onMouseEnter & onMouseLeave based on pointerEvents in Chrome
+Support Firefox profiles in scheduling profiler
+Discussion: Async cleanups of useEffect
+Add documentation for views abstraction
+Show User Timing measures in the Scheduling Profiler UI
+Show React version in Scheduling Profiler UI
+Normalize panning across browsers in the Scheduling Profiler
+Bug: react-hooks/exhaustive-deps does not recognize different signaturres
+Portal Event Bubbling Use Cases
+Bug: click event is attached to createPortal
+DOM attribute stringification fixes
+Bug: the order of effect and cleanup in Parent and Child component is weird
+[eslint-plugin-react-hooks] Bug: rules-of-hooks false positive conditional call after foreach
+Bug: Constraint Validation API not reflected on Textarea's value attribute change
+Bug: MouseEnter does not fire when coming _from_ disabled elements
+Should act() warnings be deduplicated by component stack?
+Bug: Updates to keyed lists break FLIP animations when they occur mid-animation
+Bug: firefox 'select all' menu item not firing select events on textareas
+Setup CI infra to run DevTools tests against multiple React versions
+Bug: missing interactions in profiler
+"Profiler dev tools suggestion: in ""ranked"" view, add a way to group/aggregate component instances"
+Bug: I want to confirm why the parameter of currentTime is missing in Line 68 of schedule.js source code.
+Hiding MUI Components inside React Developer Tools
+Proposition about onInput/onChange
+Bug: Form reset lost checkbox onChange event
+[eslint-plugin-react-hooks] Add whitelist for functions that are not to be considered as callbacks
+exhaustive-deps: custom effects should support async functions
+Bug: Mouse leave event not fired after removing portal
+Bug: Firefox: Autocomplete/Autofill still not working
+Bug: React throws warning on browser default function
+DevTools: Improve browser extension iframe support
+"Feature Request: <input type=""textarea"" .../>"
+Show better warning when <React.Fragment> is missing a key
+"Deprecate SyntheticKeyboardEvent.{charCode,keyCode,which}"
+"Bug: Error in useEffect is caught in ErrorBoundary, but still logs uncaught error to console in tests"
+"Add devtools ""Inspect React component"" to right-click menu"
+"Bug: devtools ""rendered at"" for child components uses value of top component"
+Bug: <iframe /> onLoad is not getting triggered after the reload triggered by moving the DOM Node
+Bug: Nested SuspenseList may display fallbacks while the component is loaded on re-render
+Bug: window as new portal will break event delegation
+Bug: Server hydration mistmatch and radio group with defaultChecked
+Provide a renderer-agnostic equivalent of setNativeProps()
+"Bug: SuspenseList revealOrder=""backwards"" is not consistent without tail props"
+Devtools: Allow editing context
+Batching makes it difficult to perform imperative actions like focus
+Bug: Event handlers on custom elements work on the client but not on the server
+Bug: React-test-renderer error when updating state in act
+[Feature Request] Allow dependency length to change in hooks
+React retains component references to old renders causing browser memory to increase
+"Arbitrary log lines may appear in between an error and the subsequent ""The above error…"" message"
+Bug: Unexpected render
+"Bug: [eslint-plugin-react-hooks] exhaustive-deps false positive on ""unnecessary"" dependency if its a React component"
+Bug: React Dev Tools Firefox extension fails to detect React
+Bug: Render-phase update to another root causes an over-rendering loop
+Bug: styles object using css variables and both a shorthand and a specific property renders incorrectly
+Bug: DevTools DOM highlighting gets stuck after a prolonged hover
+Bug: I shouldn't own the DOM fixtures website
+SuspenseList tail property not working on re-renders
+Controlled numeric input gets cleared when unfocused
+DevTools: Profiler: Enable correlating console logs to profiler output (and vice versa)
+Input nodes leaked by the browser retain React fibers
+DevTools: Provide full file path for React Native component stacks
+Undo behavior in controlled input doesn't work as expected
+What will suspense look like for the streaming case?
+"SuspenseList revealOrder=""forwards"" has issues when Suspense is nested in another element"
+Feature Request: Soft Component
+"""Should not already be working"" in Firefox after a breakpoint/alert"
+Possibility to set min duration of Suspense fallback
+react-test-renderer: the findByType method doesn't work with memo components
+"Hotkey for ""Select an element in the page to inspect it"" in Chrome extension"
+react-refresh: Dependent functions/data don't trigger refresh
+Is it possible to share contexts between renderers?
+"""NotFoundError: Failed to execute 'removeChild' on 'Node'"" when using React.Fragment <></> with Chrome extension which does not modify the DOM tree below the root div of the React app"
+"React DevTools w/ Electron: Profiler ""Reload and start profiling"" doesn't work due to XMLHttpRequest 'null' origin"
+Devtools tabs should not appear in chrome-extension pages when using react-devtools as an entry point
+Script tags are rendered inconsistently between client and server (html-encoded on server)
+[DOM] Add support for the inert attribute
+SuspenseList in DevTools could cycle through the Suspense states
+mouseEnter behaves like mouseOver when using ReactDOM.render() to mount a child element
+DevTools not properly shutting down between reloads in some cases
+Add DevTools visualization for SSR hydration
+Devtools Inspect Button Doesn't Work with Repeat Selections
+Design decision: why do we need the stale closure problem in the first place?
+"[eslint-plugin-react-hooks] allow configuring custom hooks as ""static"""
+"TypeError: ""'requestAnimationFrame' called on an object that does not implement interface Window."""
+Confusing error when passing non-function to useMemo
+onMouseEnter event missing when component hides on top of another (i.e. contextual menu)
+Devtools v4 does not work with Firefox's private window
+Chrome's Custom Formatters
+DevTools: Write tests for preserving selection
+DevTools: Components tree is sometimes unexpectedly empty after navigation
+DevTools: Audit places where we change tags or disconnect alternates in React
+DevTools: Check if accessibility regressions exist compared to old DevTools
+DevTools: Suspense Debugger
+DevTools: Re-enable postMessage transferable for faster ArrayBuffer transfers
+DevTools: Crashes and warnings when quickly collapsing
+DevTools: Better linking between browser Performance tab and DevTools Profiler
+DevTools: Should Profiler surface the base duration?
+DevTools: Collect more info when profiling
+DevTools: Fix disabled hooks lint rule
+DevTools: Component bookmarks
+DevTools: Profiler: Show which hooks changed
+DevTools: React Native: Support reload-and-profile
+DevTools: React Native: Remember saved component filters between reloads
+Remember saved component filters by url or in bookmarks
+DevTools: Occasional FOUC when loading DevTools
+DevTools: An easier way to see all siblings
+Refactor ProfilerContext to use reducer instead of multi-state
+SSR: Cannot set property 'memoizedState' of null
+Verify that Dehydrated Boundaries (and SuspenseList) Works with DevTools
+ErrorBoundary rendering multiple copies of itself when ref assignment fails
+textarea does not show warning when switching from uncontrolled to controlled like inputs do
+Warning for 'exhaustive-deps' keeps asking for the full 'props' object instead of allowing single 'props' properties as dependencies
+Request for support of oncuechange event on <track> elements
+"onBeforeInput fires after browser updates the DOM for special characters like ""中"" or 😣on Firefox and Edge"
+[Umbrella] Memory Leaks
+Collapsible Error Dialogs for the Ecosystem
+getDerivedStateFromError for Control Flow
+Component delegation to context
+Controlled input makes browser not saving submitted value (for autocomplete)
+Root-level performance events
+Improving the component logging/debugging experience
+Cannot suppress error boundary output using react-test-renderer
+eslint-plugin-react-hooks suggests adding a dependency on a function that always changes
+<details> open attribute not synchronised
+Events before Client Side Hydration
+"Field type=""email"" with multiple attribute cursor jumps to start"
+useReducer's dispatch should return a promise which resolves once its action has been delivered
+[Concurrent] Safely disposing uncommitted objects
+Is it recommended to fetch in effect or should it be imperative
+useMemo / useCallback cache busting opt out
+Profiler marks
+Dancing between state and effects - a real-world use case
+Noscript tags no longer rendering components in 16.5.0
+Hook equivalent for getSnapshotBeforeUpdate
+Memoized components should forward displayName
+Edge 18 & IE 11 server mismatch with SVG icons
+React callback ref cleanup function
+dangerouslySetInnerHTML is left empty on client render on top of bad server markup when rendering HTML
+Effect memoization and immutable data structures
+eslint-plugin-react-hooks - autofix useCallback/useMemo behaviour
+Hooks - unmount and didUpdate
+Can an error boundary prevent React's error logging?
+react-debug-tools doesn't support legacy context (Component.contextTypes)
+The browser crashes when use React.lazy return Promise.resolve(undefined)
+Password input type causes memory leak
+defaultValue does not work with input when type is set to submit
+Chrome Autofill overwrites values on controlled components
+useCallback() & useMemo() automatically with a Babel Plug-in
+Add get function to useState
+Nested portals should be discoverable
+Warning should appear when versions of react and react-dom do not match
+calculating context changes in componentDidUpdate
+findDOMNode deprecation
+Sometimes controlled email inputs break in Chrome due to punycoding
+Fail to render input in a separate window on Edge
+"API for display name on forwardRef, memo and potential future exotic components"
+Warn when calling dispatch() from useEffect() cleanup function on unmounting
+Textarea loses focus after inserting paired punctuation with Chinese IME
+react-test-renderer doesn't support Suspense and lazy nodes
+Input type email bug
+Autofocus Text puts cursor at end instead of beginning
+useCallback() invalidates too often in practice
+Unexpected copies of the props object retained in memory with the new hooks API
+Using both getDerivedStateFromError and getDerivedStateFromProps can be a foot gun
+Hooks + multiple instances of React
+nextContext arg in shouldComponentUpdate() method
+onMouseEnter does not fire on an underlaying element if an element above is removed
+Receive previous state in getDerivedStateFromError
+Update release script to handle alpha react-reconciler deps
+"Uncontrolled input type=""checkbox"" reflects updating defaultChecked in Edge and Safari"
+head > meta > content escaping issue
+JAWS reads non-interactive elements as Clickable
+How to prevent ReactDOM.render errors from bubbling when otherwise explicitly handled
+input[type='number'] value isn't updated
+Consider stopping auto-adding px to number style values (except for a small whitelist)
+Remove Factory Components
+"""scheduler"" package umbrella"
+Relax ToString consistency guarantees
+"Number input breaks when letter ""e"" is entered"
+UMD builds are not enabled on UNPKG
+onChange doesn't fire if input re-renders due to a setState() in a non-React capture phase listener
+Umbrella: Chopping Block
+"Boolean DOM properties coerce empty string to false, contrary to HTML standard"
+Support cross-renderer portals
+Investigate IE/Edge select rendering bug
+[Umbrella] Releasing Suspense
+add support for SyntheticKeyboardEvent#isComposing
+Add support for hydrating portals
+Allow Portals to be used for Reparenting
+Consider removing Mobile Safari empty onclick hack
+Provide ways to do post-mortem analysis of “Maximum update depth exceeded” error in production.
+onMouseDown causes splash on real ios browsers
+Unexpected warning when hydrating with portal and SSR
+Provide a way to detect infinite component rendering recursion in development
+Dangerous strings can reach browser builtins
+React onBlur events not firing during unmount
+"For Controlled Input, step does not work as expected unless initialized with null or """"."
+Fabric Todos
+Consider removing mouseenter/mouseleave polyfill
+Output JUnit XML test metadata for CircleCI
+Consider a more specific warning for key={undefined}
+Stop syncing value attribute for controlled inputs
+backspace fails to clear values on input type='email'
+Number input gets cleared when typing period as decimal mark
+React does not call onBlur callback
+Consider removing XML compatibility from SSR or hiding it behind an option
+"value|defaultValue={Symbol|Function} should be ignored, not stringified"
+Resetting a form containing a focused controlled number input puts it out of step with state
+RFC: Drop isAttributeNameSafe() check
+"Reword ""unknown property"" warning to be less obnoxious"
+[Umbrella] New algorithm for resuming interrupted work
+React-test-renderer: support for portal
+Formalize top-level ES exports
+[RN] Don't receive events on unknown tags
+Treat value={null} as empty string
+createPortal: support option to stop propagation of events in React tree
+React should recognize the valueAsDate property on DOM elements
+RFC: Plan for custom element attributes/properties in React 19
+Use the native beforeinput event if it's supported
+Type Fiber by tag as disjoint union
+Umbrella: React DOM Bugs
+Performance enhancements in niche situations
+Multiple onFocus events fired on single focus in Safari
+What should portals do when container has a child managed by React?
+A faster diff algorithm
+"BFcache, SSR and form elements"
+Symbol Tagging for dangerouslySetInnerHTML to Help Prevent XSS
+The fake event trick for rethrowing errors in DEV fires unexpected global error handlers and makes testing harder
+Cross-origin error passed to componentDidCatch incorrectly
+<video /> attribute needed but not guaranteed by React
+Too much unnecessary updates when a child element is moved to the front
+Remove unstable_renderIntoContainer
+Mouseenter event not triggered when cursor moves from disabled button
+"Feature request: Add a ""module"" entry in package.json to export ES2015 version of React"
+False positive getDefaultProps warning when mixing development and production versions
+Add More Cases to Server Rendering Fixture
+Error when __source is provided to production build
+"[RFC] onChange -> onInput, and don't polyfill onInput for uncontrolled components"
+Seb's Deprecation Wishlist Umbrella
+A number input will always have left pad 0 though parseFloat value in onChange
+Define specific browser support guidelines
+Compiler Optimization Umbrella
+No blur event fired when button is disabled/removed
+Switch to using createFactory in compiler steps
+Disabling or destroying event's target stops further event propagation.
+event.preventDefault in click handler does not prevent onChange from being called
+Clear button on iOS date input does not return correct event value
+[Fiber] Should we clear an error boundary's update queue whenever it captures an error?
+Undo behavior in controlled textareas works differently from the default behaviour in chrome
+[Fiber] Formalize States
+Bypass synthetic event system for Web Component events
+input autoFocus causes focus to be emitted before ref
+[bug] click not disabled on <fieldset disabled><button onClick={() => alert('clicked')}><span>click me</span></button></fieldset>
+Attach Stack at setState Calls in DEV Mode
+IE 11 and Edge no longer prompt to remember password on controlled form
+Optimizing Compiler: Compiling to Internals
+Optimizing Compiler: Component Folding
+Attributes and properties for Custom Components
+Consider exposing an opaque component path somehow
+onMouseEnter propagation in double reactroot
+Changing state in onFocus and onChange for a select multiple element does not work in Firefox
+onMouseLeave doesn't work if the node gets detached
+RFC: Configure Warning Levels Using ENV Variable
+Iframe load event not firing in Chrome and Safari when src is 'about:blank'
+Support Passive Event Listeners
+Consider Special Casing Certain DOM Attributes to Accept Elements
+Form input name='nodeName' breaks onSubmit event handling
+onResponderGrant called before onResponderTerminate
+DataTransfer's dropEffect not working on IE/Edge with not minified version react.js
+Play Nicely with The DOM Event System (because it's legacy anyway)
+Externalize the State Tree (or alternatives)
+Hibernating State (Not Necessarily Serialized)
+Include DevTools as Public API
+Use Inline Event Handlers for trapBubbledEventsLocal and the iOS Safari Click Hack
+Support for reparenting
+Change event fires extra times before IME composition ends
+Optimizing Compiler: Tagging ReactElements
+getEventKey implementation inconsistent with DOM3 spec / Firefox implementation
+Add api for focus management
+Support asynchronous server rendering (waiting for data before rendering)
+touchmove doesn't fire on removed element
+"Stop doing data-*, aria-*, start using dataSet"
+iframe contents cause invariant violation
+Provide a way to handle browser-autocompleted form values on controlled components
+Declarative API for installing global DOM event handlers
