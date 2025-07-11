@@ -71,7 +71,9 @@ This work was published in the **2024 Systems and Information Engineering Design
 
 ## Citation
 
-Please cite the original paper if you use this project or build on top of it.
+Please cite the original paper if you use this project or build on top of it:
+
+```bibtex
 @article{vaghulade2024automated,
   title        = {Automated Feature Extraction from Version Control Artifacts in GitHub Repositories},
   author       = {Vaghulade, Maitreya and Dalal, Urav and Fargose, Sean and Shah, Devang and Maniar, Kush and Bhowmick, Kiran and Narvekar, Meera},
@@ -84,7 +86,7 @@ Please cite the original paper if you use this project or build on top of it.
   doi          = {10.52783/jes.7091},
   url          = {https://doi.org/10.52783/jes.7091}
 }
-
+```
 ## Contact
 
 For questions, suggestions, or collaborations, feel free to open an issue or reach out via maitreya.vaghulade@gmail.com
