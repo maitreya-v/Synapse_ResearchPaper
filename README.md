@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository implements the methodology presented in the research paper _"Automated Feature Extraction from Control Artifacts in GitHub Repositories"_ published at the 2024 Systems and Information Engineering Design Symposium (SIEDS), University of Virginia (Scopus-indexed).
+This repository implements the methodology presented in the research paper _"Automated Feature Extraction from Control Artifacts in GitHub Repositories"_ published in the Journal of Electrical Systems.
 
 The project focuses on parsing and semantically embedding control artifacts from GitHub repositories. Control artifacts — such as GitHub Actions workflows, Dockerfiles, shell scripts, YAML configurations, and other CI/CD-related files — often contain critical information about the operational behavior of software projects. However, they are typically ignored or underutilized in repository mining efforts.
 
@@ -26,6 +26,8 @@ We start by identifying relevant control artifacts in a given GitHub repository.
 - Shell scripts and automation tools like `Makefile`, `Jenkinsfile`, etc.
 
 File detection is performed using a combination of file-path heuristics and pattern-based filters.
+
+![All Artifacts](images/data_processing.png)
 
 ### Preprocessing
 
@@ -55,7 +57,7 @@ The final output is a matrix of feature vectors — one per artifact — suitabl
 
 ## System Architecture
 
-Refer to **Figure 2** in the research paper for a high-level architecture diagram of the entire pipeline, including detection, parsing, and embedding stages. This figure serves as a visual summary of the system design and component flow.
+![System Architecture](images/methodology.png)
 
 ## Applications
 
@@ -65,9 +67,31 @@ This framework can be used for a range of practical applications such as:
 - Detecting anti-patterns or misconfigurations in pipeline definitions
 - Bootstrapping datasets for large-scale CI/CD research
 
+## Software Engineering Pipeline
+
+In a typical software development lifecycle, developers push hundreds of commits and open dozens of pull requests, each containing varying levels of information about changes to the codebase. Over time, this creates a massive trail of low-level logs that are rarely easy to digest. Our system is designed to address that exact problem by acting as a semantic filter and summarization layer that sits between version control and documentation.
+
+The pipeline begins by scanning a repository for control artifacts such as workflow files, CI/CD scripts, and deployment configurations. Alongside these files, it also ingests commit messages and pull request metadata. Using a combination of natural language processing techniques and rule-based heuristics, it identifies the meaningful parts of this textual data, filtering out boilerplate messages and extracting semantically rich insights about what was changed, why it was changed, and how it impacts automation.
+
+These extracted insights are then summarized into readable text that captures the essence of the development activity. What makes this powerful is that the summaries aren't generic — they’re tied directly to configuration files and automation logic, meaning they offer a contextual snapshot of how the infrastructure is evolving. This summary can then be automatically embedded into a repository’s README or changelog, effectively documenting the repository’s operational maturity without requiring any manual input from developers.
+
+By integrating this into a developer's workflow, the system enables repositories to become more self-explanatory, reduces onboarding time for new contributors, and gives maintainers an easy way to keep their documentation up to date with evolving CI/CD practices.
+
+![Software Developer pipeline](images/software_dev_pipeline.png)
+
+## Results
+
+We tested our system on a large number of public repositories, including well-maintained ones like `microsoft/TypeScript`, to evaluate how well it could extract meaningful, human-readable summaries from commit and PR histories.
+
+In one such example, we processed a 1,000-word chunk of commit-related data and extracted the most significant engineering changes. Instead of raw commit messages, the system produced a concise and structured summary of development activity. It highlighted changes like the fixing of the copy-paste menu, simplification of text selection behavior on Android, rephrasing of checkbox labels, enhancements to accessibility through VoiceOver role announcements, and the addition of methods like `ClearAllInteractionHandles` to address hanging issues. It also identified the introduction of experimental TypeScript types and the usage of SurfaceRegistry globals — insights that are typically buried deep in a noisy commit log.
+
+These results show that the system doesn't just summarize content — it understands structure and intent. It turns an overwhelming stream of fragmented developer messages into a coherent narrative that can be used to document automation changes, inform stakeholders, and make repositories more transparent. For projects with active DevOps pipelines, this means less time spent deciphering logs and more time focusing on actual engineering decisions.
+
+![Results](images/result.png)
+
 ## Publication
 
-This work was published in the **2024 Systems and Information Engineering Design Symposium (SIEDS)** organized by the University of Virginia and indexed in Scopus.
+This work was published in the **Journal of Electrical Systems** indexed in Scopus.
 
 ## Citation
 
